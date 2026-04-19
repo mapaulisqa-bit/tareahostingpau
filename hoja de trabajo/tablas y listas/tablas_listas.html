@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div class="contenedor">
+<body>
+    <a href="file:///D:/hoja%20de%20trabajo/pagina_principal.html">Regresar</a>
+    <center>
+    <h1>Tablas y Listas</h1>
+    </center>
+    <style>
+        h1{
+          font-family: arial black;
+        }
+        body {
+        margin-left: 200px;
+        margin-right: 200px;
+        background-image: url(https://i.pinimg.com/736x/76/0a/40/760a4065eb4653a703f0c30666bbb5c8.jpg);
+        background-size: ;    
+        background-repeat: ; 
+        background-position: center;  
+        }
+        .contenedor {
+        background-color: rgba(255, 255, 255, 0.226); /* blanco con transparencia */
+        width: 80%;
+        margin: 30px auto; /* centra el cuadro */
+        padding: 20px;
+        border-radius: 10px; /* esquinas redondeadas */
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* sombra */
+        }
+        .tabla-estilo{
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        }
+
+        .tabla-estilo th,
+        .tabla-estilo td{
+        border: 1px solid #555;
+        padding: 8px;
+        text-align: left;
+        font-family: courier;
+        }
+
+        .tabla-estilo thead th{
+        background-color: #ffda7b; /* color beige */
+        font-weight: bold;
+        }
+
+        .tabla-estilo tbody td:first-child{
+        text-align: center;
+        width: 50px;
+        }
+        .tabla {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        font-family: courier;
+        }
+        .tabla th, .tabla td {
+        border: 1px solid #555;
+        padding: 10px;
+        vertical-align: top;
+        font-family: courier;
+        }
+
+        .tabla th {
+        background-color: #ddd;
+        text-align: center;
+        font-family: courier;
+        }
+
+        ul, ol {
+        margin: 5px 5px;
+        padding-left: 40px;
+        }
+        a{
+          font-family: courier;;
+        }
+    </style>
+    <table class="tabla-estilo">
+    <thead>
+        <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Carné</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Correo Electrónico</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>2023001</td>
+            <td>Ana</td>
+            <td>López</td>
+            <td>ana.lopez@email.com</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>2023002</td>
+            <td>Carlos</td>
+            <td>Pérez</td>
+            <td>carlos.perez@email.com</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>2023003</td>
+            <td>María</td>
+            <td>González</td>
+            <td>maria.gonzalez@email.com</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>2023004</td>
+            <td>Luis</td>
+            <td>Rodríguez</td>
+            <td>luis.rodriguez@email.com</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>2023005</td>
+            <td>Sofía</td>
+            <td>Martínez</td>
+            <td>sofia.martinez@email.com</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <table class="tabla">
+  <thead>
+    <tr>
+      <th>No ordenadas (ul)</th>
+      <th>Ordenadas (ol)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul style="list-style-type: disc;">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Type="disc"</li>
+        </ul>
+      </td>
+      <td>
+        <ol type="1">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>type="1"</li>
+        </ol>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <ul style="list-style-type: circle;">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Type="circle"</li>
+        </ul>
+      </td>
+      <td>
+        <ol type="A">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Type="A"</li>
+        </ol>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <ul style="list-style-type: square;">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Type="square"</li>
+        </ul>
+      </td>
+      <td>
+        <ol type="I">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Type="I"</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
